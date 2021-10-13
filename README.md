@@ -19,7 +19,7 @@ $ kubectl run ansible -it --rm --image=ozzozz/ansible --command -- bash --login
 $ docker run -it --rm -v $PWD:/work ozzozz/ansible
 ```
 
-## commands you can run
+## commands you can run other than `ansible-*`
 
 * ssh
   * scp
